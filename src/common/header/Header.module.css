@@ -1,0 +1,28 @@
+.headerWrapper {
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+.headerCenterContainer {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media only screen and (min-width: 840px) {
+    .headerCenterContainer {
+        width: 840px;
+        margin: 0 auto;
+    }
+}
+
+.languageItem:not(:last-child) {
+    margin-right: 30px;
+}
+
+.languageItem:hover {
+    cursor: pointer;
+}

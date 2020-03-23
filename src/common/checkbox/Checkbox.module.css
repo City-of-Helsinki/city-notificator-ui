@@ -1,0 +1,40 @@
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #0000BF;
+    color: #0000BF;
+    position: relative;
+}
+
+.checkbox:checked {
+    color: #FFFFFF;
+    background-color: #0000BF;
+}
+
+.checkbox:checked:after {
+    content: '\2714';
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    color: #FFFFFF;
+}
+
+.checkbox:checked:focus {
+    outline: none;
+}
+
+.label {
+    margin-left: 10px;
+    font-size: 16px;
+}

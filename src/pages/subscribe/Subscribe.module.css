@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.helpText {
+    font-size: 20px;
+    opacity: 0.6;
+    margin: 30px 0;
+}
+
+.wrapper h2 {
+    margin: 20px 0;
+}
+
+.wrapper h3 {
+    margin: 20px 0;
+}
+
+.wrapper hr {
+    margin: 10px 0;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.textInput {
+    margin-right: 20px;
+    width: 240px;
+}
+
+.checkboxRow {
+    width: 260px;
+    margin-right: 20px;
+}
+
+.checkboxColumn {
+    margin: 10px 0;
+}
+
+.button {
+    margin-top: 15px;
+    height: 50px;
+    width: 200px;
+    background-color: #0000BF;
+    color: #FFFFFF;
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
